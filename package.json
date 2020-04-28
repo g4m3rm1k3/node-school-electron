@@ -21,8 +21,12 @@
     "url": "https://github.com/g4m3rm1k3/node-school-electron/issues"
   },
   "homepage": "https://github.com/g4m3rm1k3/node-school-electron#readme",
-  "dependencies": {},
+  "dependencies": {
+    "cat-picture": "^5.1.2",
+    "electron": "^8.2.3",
+    "lightning-image-poly": "0.0.10"
+  },
   "devDependencies": {
-    "cat-picture": "^5.1.2"
+    "electron-connect": "^0.6.3"
   }
 }

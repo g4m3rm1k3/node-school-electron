@@ -1,6 +1,12 @@
-var electron = require('electron')
+var electron = require('electron');
+
 
 electron.app.on('ready', function () {
-  var mainWindow = new electron.BrowserWindow({width: 600, height: 800})
-  mainWindow.loadURL('file://' + __dirname + '/index.html')
-})
+  const { BrowserWindow } = require('electron')
+  let win = new BrowserWindow({
+    webPreferences: {
+      nodeIntegration: true
+    }
+  ,width: 600, height: 800})
+  win.loadURL('file://' + __dirname + '/index.html')
+});
