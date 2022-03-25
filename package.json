@@ -23,7 +23,7 @@
   "homepage": "https://github.com/g4m3rm1k3/node-school-electron#readme",
   "dependencies": {
     "cat-picture": "^5.1.2",
-    "electron": "^8.2.3",
+    "electron": "^13.6.6",
     "lightning-image-poly": "0.0.10"
   },
   "devDependencies": {
